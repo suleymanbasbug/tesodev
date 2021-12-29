@@ -6,7 +6,7 @@ import Button from "../Components/Button";
 import image from "../image.jpg";
 import SmallTable from "../Components/SmallTable";
 import { Container } from "@material-ui/core";
-import axios from "../services/axiosInstance";
+import axios from "../services/axios";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",

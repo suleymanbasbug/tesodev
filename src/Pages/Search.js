@@ -7,7 +7,7 @@ import Input from "../Components/Input";
 import Button from "../Components/Button";
 import SearchTable from "../Components/SearchTable";
 import Pagination from "@mui/material/Pagination";
-import axios from "../services/axiosInstance";
+import axios from "../services/axios";
 import { useLocation } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   nav: {
